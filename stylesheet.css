@@ -1,18 +1,38 @@
 stylesheet.css
+head{
+	background-color: #F4EBC3;
+}
 body{
     font-family: Garamond;
+   background-color: #F4EBC3;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
 }
 div{
-    color: blue;
-    border-radius: 5px;
-    height: 97.5%;
-    width: 60px;
-    background-color: gray
+	text-align: center;
 }
+header{
+	font-family: Garamond;
+	background-color: #F4EBC3;
+}
+img { 
+    display: inline-block;
+    border: 2.5px solid;
+    border-radius: 80px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	background-color: #F4EBC3;
+    }
+    p{
+    	width: 500px;
+    	margin: auto;
+    	background-color: #F4EBC3;
+        }
 #header{
     z-index: 1;
     position: fixed;
-    width: 97.5%;
+    width: 100%;
     margin-top: -20px;
     height: 60px;
     background-color: #668284;
@@ -21,32 +41,59 @@ div{
 #name {
 	float:left;
 	margin-left: 5px;
-	padding-top: 5px;
+	padding-top: 15px;
 	font-size: 16px;
 	font-family: Garamond;
 	color: #ffffff;
+	background-color: #668284;
 }
 
 #email{
 	float:right;
 	margin-right: 5px;
-	padding-top: 5px;
+	padding-top: 15px;
 	font-size: 16px;
 	font-family: Garamond;
 	color: #ffffff;
+	background-color: #668284;
 }
-ul{
-    font-size: 12px;
+#education{
+	text-align: left;
 }
+#languages{
+	font-size: 16px;
+}
+ul {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	display: inline;
+}
+.places{
+	margin-right: auto;
+	margin-left: auto;
+	width:10%;
+}
+.navigation{
+	display: inline;
+}
+/*li {
+	display: inline;
+	margin: 0px 3px;}*/
 h2 {
-	margin-left: 5px;
+	margin-left: -20px;
 	margin-bottom: 15px;
 	color: black;
+	text-align: left;
 }
 h3{
     margin-left: 5px;
     margin-bottom: 15px;
     color: black;
+    text-align: left;
 }
 .left{
    position: relative;
@@ -76,11 +123,15 @@ h3{
 #footer{
 	position: relative;
 	height: 50px;
+	width: 100%;
 	background-color: #668284;
 	clear: both;
 	color: #ffffff;
 	font-family: Garamond, serif;
 	font-size: 14px;
 	text-align: center;
-	color: black;
+	color: #ffffff;
 }
+a:hover, a.on {
+	color: gray;
+	background-color: #ffffff;}
