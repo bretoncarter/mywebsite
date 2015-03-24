@@ -15,34 +15,94 @@ div{
 header{
 	font-family: Garamond;
 	background-color: #F4EBC3;
+	text-align: center;
 }
-img { 
+.navigation{
+	display: inline-block;
+	position:relative;
+}
+#self { 
     display: inline-block;
     border: 2.5px solid;
     border-radius: 80px;
   	margin-left: auto;
   	margin-right: auto;
   	background-color: #F4EBC3;
-    }
-    p{
-    	width: 500px;
-    	margin: auto;
-    	background-color: #F4EBC3;
-        }
+}
+#Flowers{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	margin-bottom: 15px;
+	background-color: #F4EBC3;
+	float: left;
+	width: 200px;
+	height: 300px;
+	clear: both;
+}
+#Mountain{
+	display: inline-block;
+	margin-left: 130px;
+	margin-right: 25px;
+	margin-top: 75px;
+	margin-bottom: 15px;
+	background-color: #F4EBC3;
+	width: 400px;
+	height: 300px;
+}
+#Wreath{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	margin-bottom: 15px;
+	background-color: #F4EBC3;
+	float: right;
+	width: 200px;
+	height: 300px;
+}
+#Watmough{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F4EBC3;
+	margin-top: 15px;
+	width: 1000px;
+	height: 400px;
+	clear:both;
+}
+#Waterfall{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	background-color: #F4EBC3;
+	width:1000px;
+	height: 400px;
+	clear:both;
+}
+p{
+    width: 500px;
+    margin: auto;
+    background-color: #F4EBC3;
+}
 #header{
     z-index: 1;
     position: fixed;
     width: 100%;
-    margin-top: -20px;
+    margin-top: -8px;
     height: 60px;
     background-color: #668284;
     margin-bottom: 10px;
 }
 #name {
 	float:left;
-	margin-left: 5px;
+	margin-left: -100px;
+	margin-right: 50px;
 	padding-top: 15px;
-	font-size: 16px;
+	padding-right: 20px;
+	font-size: 40px;
 	font-family: Garamond;
 	color: #ffffff;
 	background-color: #668284;
@@ -50,7 +110,8 @@ img {
 
 #email{
 	float:right;
-	margin-right: 5px;
+	margin-right: -100px;
+	margin-left: 10px;
 	padding-top: 15px;
 	font-size: 16px;
 	font-family: Garamond;
@@ -65,8 +126,8 @@ img {
 }
 ul {
 	width: 570px;
-	padding: 15px;
-	margin: 0px auto 0px auto;
+	padding: 10px;
+	margin: auto;
 	border-top: 2px solid #000;
 	border-bottom: 1px solid #000;
 	text-align: center;
@@ -77,12 +138,6 @@ ul {
 	margin-left: auto;
 	width:10%;
 }
-.navigation{
-	display: inline;
-}
-/*li {
-	display: inline;
-	margin: 0px 3px;}*/
 h2 {
 	margin-left: -20px;
 	margin-bottom: 15px;
@@ -119,7 +174,6 @@ h3{
 	font-family: Garamond, serif;
 	color: #000000;
 }
-
 #footer{
 	position: relative;
 	height: 50px;
